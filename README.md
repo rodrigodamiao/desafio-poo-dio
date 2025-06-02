@@ -70,7 +70,7 @@ Atributos são, basicamente, a estrutura de dados que vai representar a classe. 
 Uma “região de memória (do computador) previamente identificada cuja finalidade é armazenar os dados ou informações de um programa por um determinado espaço de tempo”.
 
 <h3>🔻 MÉTODO: </h3>
-Os métodos representam os estados e ações dos objetos e classes.
+Os métodos representam os estados e ações dos objetos e classes. 
 
 <h3>🔻 OBJETO: </h3>
 Em POO, objeto é um "molde" de uma determinada classe, que passa a existir a partir de uma instância da classe. A classe define o comportamento do objeto, usando atributos (propriedades) e métodos (ações).
