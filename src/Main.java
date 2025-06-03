@@ -1,9 +1,13 @@
+import br.com.dio.desafio.dominio.Bootcamp;
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
 import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -29,6 +33,9 @@ public class Main {
         LocalDate data = mentoria.getData();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yy");
         String dataFormateed = data.format(formatter);
+
+        System.out.println(curso1);
+        System.out.println(curso2);
 
         System.out.println(mentoria);
         System.out.println(mentoria.getData());
